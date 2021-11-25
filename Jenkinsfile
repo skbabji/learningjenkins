@@ -8,6 +8,9 @@ pipeline {
 			echo"success"
 			}
 		}
+	   stage("slepeing") {
+		   steps {
+			   sleep 30
 	}
 }
 
