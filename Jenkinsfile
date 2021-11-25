@@ -11,6 +11,8 @@ pipeline {
 	   stage("slepeing") {
 		   steps {
 			   sleep 30
+		   }
+	   }
 	}
 }
 
